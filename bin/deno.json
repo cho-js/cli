@@ -1,0 +1,14 @@
+{
+  "name": "@chojs/cli",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./main.ts",
+  "imports": {
+    "@chojs/command": "jsr:@chojs/command@^3.0.0"
+  },
+  "publish": {
+    "exclude": [
+      "./**/*_test.ts"
+    ]
+  }
+}

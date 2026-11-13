@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "cho": "deno run --allow-env bin/main.ts",
+    "test": "deno test --allow-env"
+  },
+  "workspace": [
+    "./bin"
+  ],
+  "fmt": {
+    "lineWidth": 80
+  },
+  "compilerOptions": {
+    "experimentalDecorators": false,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true
+  }
+}
